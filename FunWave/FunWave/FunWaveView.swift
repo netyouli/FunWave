@@ -163,4 +163,10 @@ public class FunWaveView: UIView {
         wavePath2.addLine(to: CGPoint(x: 0, y: bounds.height))
         waveLayer2.path = wavePath2.cgPath
     }
+    
+    private func randomNumber(_ range: Range<Int>) -> CGFloat {
+        let distance = range.upperBound - range.lowerBound
+        let rnd = arc4random_uniform(UInt32(distance))
+        return CGFloat(range.lowerBound + Int(rnd))
+    }
 }

@@ -1,0 +1,6 @@
+osx_image: xcode8
+language: swift
+xcode_project: FunWave.xcworkspace # path to your xcodeproj folder
+env:
+  - ACTION=test  PLATFORM=iOS     DESTINATION='platform=iOS Simulator,name=iPhone 6S'
+xcode_schemes: FunWave
