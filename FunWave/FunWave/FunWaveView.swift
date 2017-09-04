@@ -5,8 +5,7 @@
 //  Created by WHC on 17/9/1.
 //  Copyright © 2017年 WHC. All rights reserved.
 //
-//  Github <https://github.com/netyouli/WHC_Layout>
-
+//  Github <https://github.com/netyouli/FunWave>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
