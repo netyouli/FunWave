@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330D5DC2AF63C8E35BF9B5E2A5E9F420 /* WHC_AutoCellHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C451A649854346C27AF181C876D7D000 /* WHC_AutoCellHeight.swift */; };
+		3912D2D4FEA74757BAF411B1F5F2BAFC /* WHC_Layout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E0B8A6742AE37FF8628EB5DDC48771 /* WHC_Layout-dummy.m */; };
+		47A8228212072B95223270C737959413 /* WHC_AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5AB861091AA354113A7246AC0E85F4 /* WHC_AutoLayout.swift */; };
+		4D0124D911E82A82DA268606EF19804B /* Pods-FunWave-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 974B3A86F2AF3BAE6F954F28888C420F /* Pods-FunWave-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F98853C09BE37C2546492E72ECC2751 /* WHC_StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5FE87CE5CE60B8B24ED04016A1CC44 /* WHC_StackView.swift */; };
+		5405D8101531BD9074C37B6EBEB77C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9A3D0F26AE0C37710A2852FF76D2938E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A43FEB4DFD67D972FBE536AEEFE9E724 /* Pods-FunWave-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DC29DDD74B358949F06F8887F2AA12 /* Pods-FunWave-dummy.m */; };
+		AD5CFFA0DD393D7FF568BE5FEFF2DC40 /* WHC_Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AB5501261150ED082DDABEF0EC8A66 /* WHC_Frame.swift */; };
+		F5F55DB6FA52C5CEF5D548A0987455A0 /* WHC_Layout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CAB69FC724B1CEB264C5CD95F8C17F /* WHC_Layout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36B3B67475E654CB7F6CB1AA8C498C97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540B9FE07D6BD90FEA2946F42CCF1B11;
+			remoteInfo = WHC_Layout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08ED69CA84C52E4C4A9BA287680221B2 /* WHC_Layout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WHC_Layout.xcconfig; sourceTree = "<group>"; };
+		0C0A9C654FCE3E840A0CEC50FD489184 /* Pods-FunWave-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunWave-frameworks.sh"; sourceTree = "<group>"; };
+		19D898983CC291F8B815D13CE0CEB189 /* Pods_FunWave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunWave.framework; path = "Pods-FunWave.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E0B8A6742AE37FF8628EB5DDC48771 /* WHC_Layout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WHC_Layout-dummy.m"; sourceTree = "<group>"; };
+		1E5FE87CE5CE60B8B24ED04016A1CC44 /* WHC_StackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHC_StackView.swift; path = WHC_LayoutKit/WHC_StackView.swift; sourceTree = "<group>"; };
+		31634DB08F6D3845B5C5C752697A3FB9 /* Pods-FunWave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunWave.debug.xcconfig"; sourceTree = "<group>"; };
+		3A5AB861091AA354113A7246AC0E85F4 /* WHC_AutoLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHC_AutoLayout.swift; path = WHC_LayoutKit/WHC_AutoLayout.swift; sourceTree = "<group>"; };
+		4EFEBFB047067866027BBD6FA33A065C /* Pods-FunWave-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunWave-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BC000B9A8DC4CD19F48837D03A0E26F /* WHC_Layout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WHC_Layout.framework; path = WHC_Layout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7856BB388A64DFFB397CDD589517BD1C /* WHC_Layout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WHC_Layout.modulemap; sourceTree = "<group>"; };
+		79E79F50F520581AC214BE60827377DD /* Pods-FunWave.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FunWave.modulemap"; sourceTree = "<group>"; };
+		8269315A78E4C15E69AB2E1748E8B0D5 /* WHC_Layout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHC_Layout-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		974B3A86F2AF3BAE6F954F28888C420F /* Pods-FunWave-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunWave-umbrella.h"; sourceTree = "<group>"; };
+		A5AB5501261150ED082DDABEF0EC8A66 /* WHC_Frame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHC_Frame.swift; path = WHC_LayoutKit/WHC_Frame.swift; sourceTree = "<group>"; };
+		AF07A96A332CD14F43FA43C8D5B84656 /* Pods-FunWave-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunWave-resources.sh"; sourceTree = "<group>"; };
+		B694E0AB4AAA46D86BAEB0EE1264F3FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C399A2A833B5274D6DB29B3DA4839798 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C451A649854346C27AF181C876D7D000 /* WHC_AutoCellHeight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WHC_AutoCellHeight.swift; path = WHC_LayoutKit/WHC_AutoCellHeight.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3DC29DDD74B358949F06F8887F2AA12 /* Pods-FunWave-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunWave-dummy.m"; sourceTree = "<group>"; };
+		D9CAB69FC724B1CEB264C5CD95F8C17F /* WHC_Layout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WHC_Layout-umbrella.h"; sourceTree = "<group>"; };
+		E089FA5534F873095D68F7DC4E3957FF /* Pods-FunWave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunWave.release.xcconfig"; sourceTree = "<group>"; };
+		E48BFDB77401643931883DF166B85B06 /* Pods-FunWave-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunWave-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43AF9372245056E794FBAD3B066EB861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5405D8101531BD9074C37B6EBEB77C9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3155AAE2754286E5C838C456EEE8754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3D0F26AE0C37710A2852FF76D2938E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190056C55D3FA1478E23F2805763048D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				965D5547DF875BE451AFEF7927E133AB /* WHC_Layout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61B8796A8D7F8D3DF927F094818484DE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8129A59A078CED20CE79E32B06C14D0E /* Pods-FunWave */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				190056C55D3FA1478E23F2805763048D /* Pods */,
+				D6B324887E3B133A7079FA71E8C51AED /* Products */,
+				61B8796A8D7F8D3DF927F094818484DE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8129A59A078CED20CE79E32B06C14D0E /* Pods-FunWave */ = {
+			isa = PBXGroup;
+			children = (
+				B694E0AB4AAA46D86BAEB0EE1264F3FF /* Info.plist */,
+				79E79F50F520581AC214BE60827377DD /* Pods-FunWave.modulemap */,
+				4EFEBFB047067866027BBD6FA33A065C /* Pods-FunWave-acknowledgements.markdown */,
+				E48BFDB77401643931883DF166B85B06 /* Pods-FunWave-acknowledgements.plist */,
+				D3DC29DDD74B358949F06F8887F2AA12 /* Pods-FunWave-dummy.m */,
+				0C0A9C654FCE3E840A0CEC50FD489184 /* Pods-FunWave-frameworks.sh */,
+				AF07A96A332CD14F43FA43C8D5B84656 /* Pods-FunWave-resources.sh */,
+				974B3A86F2AF3BAE6F954F28888C420F /* Pods-FunWave-umbrella.h */,
+				31634DB08F6D3845B5C5C752697A3FB9 /* Pods-FunWave.debug.xcconfig */,
+				E089FA5534F873095D68F7DC4E3957FF /* Pods-FunWave.release.xcconfig */,
+			);
+			name = "Pods-FunWave";
+			path = "Target Support Files/Pods-FunWave";
+			sourceTree = "<group>";
+		};
+		965D5547DF875BE451AFEF7927E133AB /* WHC_Layout */ = {
+			isa = PBXGroup;
+			children = (
+				C451A649854346C27AF181C876D7D000 /* WHC_AutoCellHeight.swift */,
+				3A5AB861091AA354113A7246AC0E85F4 /* WHC_AutoLayout.swift */,
+				A5AB5501261150ED082DDABEF0EC8A66 /* WHC_Frame.swift */,
+				1E5FE87CE5CE60B8B24ED04016A1CC44 /* WHC_StackView.swift */,
+				A18AA210318FA9ED7D8892464D3EC252 /* Support Files */,
+			);
+			name = WHC_Layout;
+			path = WHC_Layout;
+			sourceTree = "<group>";
+		};
+		A18AA210318FA9ED7D8892464D3EC252 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C399A2A833B5274D6DB29B3DA4839798 /* Info.plist */,
+				7856BB388A64DFFB397CDD589517BD1C /* WHC_Layout.modulemap */,
+				08ED69CA84C52E4C4A9BA287680221B2 /* WHC_Layout.xcconfig */,
+				19E0B8A6742AE37FF8628EB5DDC48771 /* WHC_Layout-dummy.m */,
+				8269315A78E4C15E69AB2E1748E8B0D5 /* WHC_Layout-prefix.pch */,
+				D9CAB69FC724B1CEB264C5CD95F8C17F /* WHC_Layout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WHC_Layout";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6B324887E3B133A7079FA71E8C51AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19D898983CC291F8B815D13CE0CEB189 /* Pods_FunWave.framework */,
+				5BC000B9A8DC4CD19F48837D03A0E26F /* WHC_Layout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B8F076A837D18C81AEA72D0354C870C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F55DB6FA52C5CEF5D548A0987455A0 /* WHC_Layout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF47EB3CFB3D0654529AA30F1588159E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0124D911E82A82DA268606EF19804B /* Pods-FunWave-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		540B9FE07D6BD90FEA2946F42CCF1B11 /* WHC_Layout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E84B0235325E34F3E6350DB5A03A34D9 /* Build configuration list for PBXNativeTarget "WHC_Layout" */;
+			buildPhases = (
+				B37849779E96DD52C2A4EB1539B28400 /* Sources */,
+				43AF9372245056E794FBAD3B066EB861 /* Frameworks */,
+				B8F076A837D18C81AEA72D0354C870C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHC_Layout;
+			productName = WHC_Layout;
+			productReference = 5BC000B9A8DC4CD19F48837D03A0E26F /* WHC_Layout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEC7E68B457B79B46E44CDB067F38B94 /* Pods-FunWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F3FE6358132BB463C5FBCB9442D7B1 /* Build configuration list for PBXNativeTarget "Pods-FunWave" */;
+			buildPhases = (
+				9FCF02EE0C94C2810BB215C2BC25FDE7 /* Sources */,
+				A3155AAE2754286E5C838C456EEE8754 /* Frameworks */,
+				CF47EB3CFB3D0654529AA30F1588159E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A805976C0F33C889DF4F4E5C22C62068 /* PBXTargetDependency */,
+			);
+			name = "Pods-FunWave";
+			productName = "Pods-FunWave";
+			productReference = 19D898983CC291F8B815D13CE0CEB189 /* Pods_FunWave.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D6B324887E3B133A7079FA71E8C51AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEC7E68B457B79B46E44CDB067F38B94 /* Pods-FunWave */,
+				540B9FE07D6BD90FEA2946F42CCF1B11 /* WHC_Layout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FCF02EE0C94C2810BB215C2BC25FDE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43FEB4DFD67D972FBE536AEEFE9E724 /* Pods-FunWave-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37849779E96DD52C2A4EB1539B28400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330D5DC2AF63C8E35BF9B5E2A5E9F420 /* WHC_AutoCellHeight.swift in Sources */,
+				47A8228212072B95223270C737959413 /* WHC_AutoLayout.swift in Sources */,
+				AD5CFFA0DD393D7FF568BE5FEFF2DC40 /* WHC_Frame.swift in Sources */,
+				3912D2D4FEA74757BAF411B1F5F2BAFC /* WHC_Layout-dummy.m in Sources */,
+				4F98853C09BE37C2546492E72ECC2751 /* WHC_StackView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A805976C0F33C889DF4F4E5C22C62068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WHC_Layout;
+			target = 540B9FE07D6BD90FEA2946F42CCF1B11 /* WHC_Layout */;
+			targetProxy = 36B3B67475E654CB7F6CB1AA8C498C97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		053A87640047555F590414E99ADDABB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08ED69CA84C52E4C4A9BA287680221B2 /* WHC_Layout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WHC_Layout/WHC_Layout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHC_Layout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WHC_Layout/WHC_Layout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WHC_Layout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68EEB72BF67388B800C867ED7E945437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08ED69CA84C52E4C4A9BA287680221B2 /* WHC_Layout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WHC_Layout/WHC_Layout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WHC_Layout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WHC_Layout/WHC_Layout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WHC_Layout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90DB000B4A6E5BBDADC214262EF788BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E089FA5534F873095D68F7DC4E3957FF /* Pods-FunWave.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunWave/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunWave/Pods-FunWave.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunWave;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE6D7F465DEC5B4988B618A2A529EE20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31634DB08F6D3845B5C5C752697A3FB9 /* Pods-FunWave.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunWave/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunWave/Pods-FunWave.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunWave;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F3FE6358132BB463C5FBCB9442D7B1 /* Build configuration list for PBXNativeTarget "Pods-FunWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6D7F465DEC5B4988B618A2A529EE20 /* Debug */,
+				90DB000B4A6E5BBDADC214262EF788BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E84B0235325E34F3E6350DB5A03A34D9 /* Build configuration list for PBXNativeTarget "WHC_Layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053A87640047555F590414E99ADDABB4 /* Debug */,
+				68EEB72BF67388B800C867ED7E945437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
