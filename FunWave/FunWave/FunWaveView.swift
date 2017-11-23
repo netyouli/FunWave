@@ -146,10 +146,10 @@ public class FunWaveView: UIView {
         var y2 = y1
         wavePath1.move(to: CGPoint(x: 0, y: y1))
         wavePath2.move(to: CGPoint(x: 0, y: y2))
-        let a = 3 / bounds.width * CGFloat(M_PI)
+        let a = 3 / bounds.width * CGFloat(CGFloat.pi)
         for x in 0 ... Int(bounds.width) {
-            let b1 = 2 * waveWidthRange / bounds.width * CGFloat(M_PI)
-            let b2 = (waveWidthRange / bounds.width + 1) * CGFloat(M_PI)
+            let b1 = 2 * waveWidthRange / bounds.width * CGFloat.pi
+            let b2 = (waveWidthRange / bounds.width + 1) * CGFloat.pi
             let c = (1 - rate) * bounds.height
             y1 = waveHeightRange * CGFloat(sin(Double(a * CGFloat(x) + b1))) + c
             y2 = waveHeightRange * CGFloat(sin(Double(a * CGFloat(x) + b2))) + c
