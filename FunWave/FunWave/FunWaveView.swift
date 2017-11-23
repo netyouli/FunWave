@@ -51,8 +51,8 @@ public class FunWaveView: UIView {
     /// 波浪速度
     public lazy var waveSpeed: CGFloat = 7
     /// 波浪颜色
-    public lazy var waveColor1: UIColor = UIColor(colorLiteralRed: 237.0 / 255.0, green: 237.0 / 255.0, blue: 237.0 / 255.0, alpha: 0.5)
-    public lazy var waveColor2: UIColor = UIColor(colorLiteralRed: 220.0 / 255.0, green: 220.0 / 255.0, blue: 220.0 / 255.0, alpha: 0.5)
+    public lazy var waveColor1: UIColor = UIColor(displayP3Red: 237.0 / 255.0, green: 237.0 / 255.0, blue: 237.0 / 255.0, alpha: 0.5)
+    public lazy var waveColor2: UIColor = UIColor(displayP3Red: 220.0 / 255.0, green: 220.0 / 255.0, blue: 220.0 / 255.0, alpha: 0.5)
     
     deinit {
         stop()
